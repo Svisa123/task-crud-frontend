@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-top {
+  display: flex;
+  position: absolute;
+  background: black;
+  width: 100%;
+  top: 0;
+  left: 0;
+  justify-content: center;
+}
+.container-top h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+main {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container-task-hidden {
+  display: none;
+}
+
+.container-task-show {
+  display: block;
+}
+.container-input {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.container-btn {
+  margin-top: 10px;
+}
+.container-input input {
+  height: 30px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.btn-add,
+.btn-cancel,
+.btn-create {
+  cursor: pointer;
+  background-color: #db4c3f;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 80px;
+  padding: 10px;
+}
+
+.btn-create {
+  width: 120px;
+}
+.btn-cancel {
+  color: black;
+  background-color: #fff;
+}
+
+.btn-cancel:hover {
+  border: 1px solid gray;
+  text-decoration: underline;
+}
+.btn-create-hidden{
+  display: none;
+}
+.task{
+  cursor: pointer;
+  height: 25px;
+  width: 500px;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+}
+.container-create-btn{
+  width: 470px;
+}

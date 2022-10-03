@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container-top">
+      <h1>Task list</h1>
+    </header>
+
+    <main>
+      <ul class="task-list" id="task-list"></ul>
+      <div class="container-create-btn">
+      <button id="create-btn"  class="btn-create">Create Task</button>
+     </div>
+      <div id="container-task" class="container-task-hidden">
+        <div class ="container-input">
+          <input id="input-task" autocomplete="off"></input>
+          <div class="container-btn">
+          <button id="btn-add" class="btn-add">add task</button>
+          <button id="btn-cancel" class="btn-cancel">Cancel</button>
+          </div>
+          </div>
+      </div>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
